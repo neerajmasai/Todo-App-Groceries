@@ -1,0 +1,155 @@
+button:hover{
+  cursor: pointer;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Top{
+  width: 100%;
+  min-height: 220px;
+  background-color: whitesmoke;
+  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  border: 3px solid silver;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 220px;
+}
+
+.Bottom{
+  width: 100%;
+  min-height: 220px;
+  background-color: whitesmoke;
+  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  border: 3px solid silver;
+  border-radius: 10px;
+}
+.Text-Box{
+  width: 100%;
+  height: 50%;
+}
+.Text-Box > h2{
+  color: #282c34;
+}
+.Text-Box > input{
+  width: 80%;
+  height: 25%;
+  font-size: large;
+  border-radius: 10px;
+  color: grey;
+  font-style: italic;
+  padding-left: 10px;
+  outline: none;
+
+}
+.Text-Box > input:focus{
+  outline: none;
+}
+.Buttons{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Btn-Cart > button{
+  margin: 20px;
+  background-color: whitesmoke;
+  border: 3px solid grey;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+
+}
+.Btn-Wish > button{
+  margin: 20px;
+  background-color: whitesmoke;
+  border: 3px solid grey;
+  padding: 10px;
+  border-radius: 10px; 
+  font-weight: bold; 
+}
+.Cart-List-Item{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Cart-List-Item:hover{
+  cursor: pointer;
+}
+.Cart-List-Item > h3{
+  width: 40%;
+  padding: 5px;
+  margin-bottom: 2px;
+  background-color: rgb(100, 100, 100);
+  border-bottom: 3px solid white;
+  color: white;
+  border-radius: 10px;
+  font-size: larger;
+}
+
+.Wish-List-Item{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Wish-List-Item > h3{
+  width: 40%;
+  padding: 5px;
+  margin-bottom: 2px;
+  background-color: rgb(100, 100, 100);
+  border-bottom: 3px solid white;
+  color: white;
+  border-radius: 10px;
+  font-size: larger;
+}
+
+.Wish-List-Item:hover{
+  cursor: pointer;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
